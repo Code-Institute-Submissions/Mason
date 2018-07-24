@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+
+/*............................................Heading*/
+
+body { 
+    background: url(http://i.imgur.com/Asbdvgw.png);
+    font-family: 'Open Sans', sans-serif;
+    margin:0;
+}
+
+.logo-img{
+    position: fixed;
+    margin: 10px 15px 15px 10px;
+    left: 0;
+    display:inline;
+}
+
+.bg-div{
+    background:#333;
+    height: 50px;
+}
+
+.bg-div nav {
+    position: fixed;
+    display:inline;
+    right: 0;
+}
+
+header {
+    width: 950px;
+    margin: auto;
+    position: relative;
+    background: #fff;
+    overflow: hidden;
+}
+
+.wrapper {
+    width: 950px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+header .logo{
+    border-left: 1px dashed #333333;
+    padding:5px 10px;
+}
+header .logo h4{
+    padding: 0px ;
+    text-decoration: none;
+    font-size: 20px;
+    color: #cc3333;
+    padding: 10px;
+    padding-bottom:0;
+}
+.logo h4{
+    margin:0;
+    padding:0;
+}
+.logo p{
+    color:rgba(0,0,0,0.7);
+    margin:0;
+    padding:0 10px;
+}
+header nav{
+    position:absolute;
+    right:0;
+    top:0;
+    margin: 0px 0px;
+}
+
+header nav ul{
+    margin: 0px;
+}
+
+header nav ul li{
+    display: block;
+    float: left;
+    margin: 0px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #333333;
+    font-size: 17px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear;
+}
+
+header nav ul li a.active,
+header nav ul li a:hover{
+    color: #cc3333;
+    border-top: 1px dashed #cc3333;
+    border-bottom: 1px dashed #cc3333;
+}
+
+header li {
+    display: inline;
+    border-left: 1px dashed #cc3333;
+    padding: 10px 25px 10px 25px;
+}
+
+header li:first-child {
+    border: none;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+
+/*............................................Section*/
+.media {
+    font-family: "Exo", sans-serif;
+    color:"a6f7ec";
+    font-weight: 300;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+/*............................................Contact*/
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 500px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 500px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #e84610;
+    color: #fafafa;
+
+
+
+
+
+/*............................................Footer*/
+
+footer {
+    background-color: #525252;
+    min-height: 120px;
+    margin: 0;
+    margin-top: 100px;
+}
+
+footer .cv-pdf i {
+    text-align: center;
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+footer .cv-pdf i:hover {
+    color: #e84610;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #e84610;
+}
+
+#footer-details {
+    margin: 20px;
+}
+
+/*............................................Media Query*/
+
+@media (min-width: 768px) {
+  .navbar-nav {
+    width: 100%;
+    text-align: center;
+  }
+  .navbar-nav > li {
+    float: none;
+    display: inline-block;
+  }
+  .navbar-nav > li.navbar-right {
+    float: right !important;
+  }
+}
