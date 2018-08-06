@@ -8,108 +8,98 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
 
-    <header>
-    <div class="wrapper">
-    <div class="logo">
-      <h4>
-      Mason's Food Exploration
-      </h4>
-      <p>Let's go on a foodie adventure</p>
+<header>
 
+<!--NAVIGATION BAR-->
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
     </div>
-    <nav>
-      <ul>
-        <<li><a href="index.html">Home</a></li>
-        <li><a href="feedme.html">Feed Me</a></li>
-        <li><a href="feedingessentials.html">Feeding Essentials</a></li>
-        <li><a href="contact.html">Let's Stay in Touch</a></li>
-      </ul>
-    </nav>
+    
+    <div class="row">
+      <a href="index.html">
+        <div class="col-md-4 logo"></div>
+      </a>
+        <div class="col-md-8">
+          <div class="row bg-color-name-title">
+            <div class="heading">
+              <h2 class="name">Mason's Food Exploration</h2>
+                <h5 class="title">Toddler extroardinaire loving life. 
+                   Lover of yummy treats and snacks. Let's go on a foodie adventure.</h5>
+            </div>
+          </div>
+        </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="navbar-nav navbar-right">
+            <li class="col-xs-6 col-sm-3 ui-menu-color-home menuitem">
+              <a href="index.html" class="hvr-sweep-to-bottom"><span>Home</span></a>
+            </li>
+            <li class="col-xs-6 col-sm-3 ui-menu-color-feedme menuitem">
+              <a href="feedme.html" class="hvr-sweep-to-bottom"><span>Food</span></a>
+            </li>
+            <li class="col-xs-6 col-sm-3 ui-menu-color-feedessentials menuitem">
+              <a href="feedingessentials.html" class="hvr-sweep-to-bottom"><span>Loot</span></a>
+            </li>
+            <li class="col-xs-6 col-sm-3 ui-menu-color-contact menuitem">
+              <a href="contact.html" target="_blank" class="hvr-sweep-to-bottom"><span>Contact</span></a>
+            </li>
+          </ul>
+    </div>
   </div>
+</nav>
+ 
+ <!--NAVIGATION BAR-->
+    
 </header>
 
 
-<section id="contact" class="home-section text-center">
-    <div class="heading-contact">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-md-offset-2">
-
-            <div class="section-heading">
-              <font color="#fff">
-              <h2>Let's Stay in Touch</h2>
-              </div>
-              <font color="#fff">
-              <p>Feel free to get in touch if you have any questions or comments.</p>
-            </div>
-
-          </div>
-        </div>
+<section>
+    <div class="container">
+        <div class="picture"></div>
+         <img src="assets/images/melmo.jpg" class="img-circle img-responsive" alt="masonelmo">
+    </div>
+    <div class="container">
+      <div align="center">
+        <font color=#f4f6f7>
+      <h1 class="uppercase general-sub"> Mason Bannister</h1>
+        <p>
+          Thanks for visiting. Feel free to follow me on social media. You can also email me too!
+        </p>
       </div>
     </div>
     <div class="container">
+      <div align="center">
+        <ul class="list-inline">
+          <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Follow me on Facebook" class="fa fa-facebook fa-4x"></a></li>
+          <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Follow me on Instagram" class="fa fa-instagram fa-4x"></a></li>
+          <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Follow me on You Tube" class="fa fa-youtube fa-4x"></a></li>
+          <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Send me an email" class="fa fa-envelope fa-4x"></a></li>
 
-      <div class="row">
-        <div class="col-lg-8 col-md-offset-2">
-          <div class="form-wrapper marginbot-50">
-            <form id="contact-form" action="" method="post" role="form" class="contactForm">
-              <div class="form-group">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                <div class="validation"></div>
-              </div>
-              <div class="form-group">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                <div class="validation"></div>
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                <div class="validation"></div>
-              </div>
-              <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                <div class="validation"></div>
-              </div>
-              <button type="submit" class="btn btn-secondary center-block">Send</button> 
-            </form>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-  </section>
+</section>
  
-<footer>
-    <div class="row">
-          <div class="col-sm-4">
-              <font color="rgba(0,0,0,0.7)">
-              <h5 class="uppercase general-sub">About</h5>
-                  <font color="#fff">
-                  <p class="inline-block">
-                        Toddler extraordinaire loving life.
-                        Lover of yummy treats and snacks.
-                  </p>
-          </div>
-      <div class="col-sm-4">
-              <font color="rgba(0,0,0,0.7)">
-              <h5 class="uppercase general-sub">Download Feeding Guide</h5>
-                  <font color="#fff"
-                  <p class="inline-block">
-                      Here's a guide of foods to feed us little people for your parents.
-                    <a href="assets/images/tf.jpg" target="_blank"><i class="fa fa-download" aria-hidden="true"></i></a>
-                  </p>
-      </div>
-      <div class="col-sm-4">
-          <font color="rgba(0,0,0,0.7)">
-          <h5 class="uppercase general-sub">My Social</h5>
-              <ul class="list-inline social-links">
-                <li><a target="blank" href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a target="blank" href="#"><i class="fa fa-instagram"></i></a></li>
-                <li><a target="blank" href="#"><i class="fa fa-youtube"></i></a></li>
-              </ul>
-      </div>
-    </div>
+
+<!-- Footer -->
+<footer class="page-footer">
+
 </footer>
+<!-- Footer -->
+
+ 
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip(); 
+});
+</script>
+
+
 </body>
     
 </html>
