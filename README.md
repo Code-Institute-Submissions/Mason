@@ -11,7 +11,7 @@ Many alterations were made to the initial idea I had of the website in my head. 
 had to go back to many of the lessons that was covered in the course to make sure I'm doing things correctly.
 I had a lot of difficulty with Bootstrap in the beginning, but in the end with a lot of persistence, it worked 
 out. My biggest problem was making sure I had enough closing div elements in the html, since that significantly 
-affected how my code turned out (or didn't for that matter).
+affected how my code turned out (or didn't for that matter). Each HTML page of the site was run through the W3C markup validation Service and the CSS was run through the W3C css validation Service.
 
 The main purpose of my webpage is to help new mothers have some kind of guide for feeding their child. The 
 baby food industry is a very huge industry, and it may be a little difficult for a first time mom to navigate 
