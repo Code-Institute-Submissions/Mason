@@ -1,6 +1,7 @@
 Mason Milestone Project
 
 Purpose:
+
 Welcome to my website.  I wanted to maximize my learning by doing this project based on something of 
 interest to me.  Instead of creating a webpage for a fictional rockband, I wanted to incorporate what 
 I have learned so far with a topic that means the world to me, my son.  I feel that by turning this 
@@ -8,6 +9,7 @@ project into something that I would want to see myself, I would be able to incor
 looking for as well as make the website how I want it to be.
 
 Planning & Implementation:
+
 At first, this project was very daunting, as I had no idea where to begin.  I looked at different websites 
 that I generally visit, as well various templates for inspiration and to determine my website's layout.  
 Many alterations were made to the initial idea I had of the website in my head.  I did a lot of googling, and 
