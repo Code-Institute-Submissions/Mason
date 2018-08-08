@@ -31,3 +31,37 @@ information that was provided on my webpage.  The footer is just blank, as I tho
 Instead, all of the social media links are on the contact page.  I didn't think a contact form was necessary for this
 webpage, so instead, if the user wanted to contact me, they can click on the email me icon to send me an email.
 
+
+Code Validation:
+
+Each HTML page of the site was run through the W3C markup validation Service and the CSS was run through the W3C css validation Service.
+
+
+Website Testing:
+
+Tests were conducted throughout the development of the project in Cloud9.
+
+
+Project Deployment and Testing:
+
+The project was deployed using GitHub and is published here.
+
+
+Image and Video References:
+
+Ella's Pouches
+URL ("https://www.ellaskitchen.co.uk/?gclid=CjwKCAjwqarbBRBtEiwArlfEIKf5BtMZVpIrV4BWSwGu63JvOHx1Zm8cU7m7T3nL_I6OK7yEUReOnhoCMTEQAvD_BwE&gclsrc=aw.ds")
+
+Feeding Debate
+URL ("https://www.youtube.com/embed/fVvkzqLfTeU")
+
+HIPP Pouches
+URL ("https://www.hipp.co.uk/"
+
+ITV Debate
+URL ("https://www.youtube.com/embed/JvroKVBY-CM")
+
+Product Review
+URL ("https://www.youtube.com/embed/8_n7oSGZVd0")
+
+
