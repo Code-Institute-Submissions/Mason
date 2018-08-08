@@ -42,7 +42,7 @@ Each HTML page of the site was run through the W3C markup validation Service and
 
 Website Testing:
 
-Tests were conducted throughout the development of the project in Cloud9.
+Tests were conducted throughout the development of the project in Cloud9 and GitHub.
 
 
 
