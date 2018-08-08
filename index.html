@@ -8,124 +8,127 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
 
-    
 <header>
-    <div class="wrapper">
-    <div class="logo">
-      <h4>
-      Mason's Food Exploration
-      </h4>
-      <p>Let's go on a foodie adventure</p>
 
+<!--NAVIGATION BAR-->
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
     </div>
-      <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="feedme.html">Feed Me</a></li>
-        <li><a href="feedingessentials.html">Feeding Essentials</a></li>
-        <li><a href="contact.html">Let's Stay in Touch</a></li>
-      </ul>
-    </nav>
+    
+    <div class="row">
+      <a href="index.html">
+        <div class="col-md-4 logo"></div>
+      </a>
+        <div class="col-md-8">
+          <div class="row bg-color-name-title">
+            <div class="heading">
+              <h2 class="name">Mason's Food Exploration</h2>
+                <h5 class="title">Toddler extroardinaire loving life. 
+                   Lover of yummy treats and snacks. Let's go on a foodie adventure.</h5>
+            </div>
+          </div>
+        </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="navbar-nav navbar-right">
+            <li class="col-xs-6 col-sm-3 ui-menu-color-home menuitem">
+              <a href="index.html" class="hvr-sweep-to-bottom"><span>Home</span></a>
+            </li>
+            <li class="col-xs-6 col-sm-3 ui-menu-color-feedme menuitem">
+              <a href="feedme.html" class="hvr-sweep-to-bottom"><span>Food</span></a>
+            </li>
+            <li class="col-xs-6 col-sm-3 ui-menu-color-feedessentials menuitem">
+              <a href="feedingessentials.html" class="hvr-sweep-to-bottom"><span>Loot</span></a>
+            </li>
+            <li class="col-xs-6 col-sm-3 ui-menu-color-contact menuitem">
+              <a href="contact.html" target="_blank" class="hvr-sweep-to-bottom"><span>Contact</span></a>
+            </li>
+          </ul>
+    </div>
   </div>
+</nav>
+ 
 </header>
 
 
 <section>
+    
+  
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators black">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+ 
+ 
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="assets/images/asparagus.jpg" class="img-responsive">
+    </div>
+  <div class="item">
+    <img src="assets/images/brocolli.jpg" class="img-responsive">
+  </div>
+  <div class="item">
+    <img src="assets/images/mango.jpg" class="img-responsive">
+  </div>
+ </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>  
+  
+<article class="container">
+    <div class="row">
+      <div class="col-xs-12">
     <div class="jumbotron text-center">
         <div class="container">
-          <h3 class="jumbotron-heading">My Story</h3>
-          <p class="lead text-muted">It's hard figuring out what tastes good and what doesn't at my age.  
-          There's so many amazing tastes and textures out there, and it's hard to know where to begin.
-          Follow me as I embark on this journey that will influence my food choices for the rest of my life.
-          I have some handy advice, cool videos, and delicious recipes of the foods I enjoy to help guide you
-          through the joys of feeding a baby/toddler!</p>
-        </div>
-    </div>
-    <div class="container">
-    <div id="logoCarousel" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators black">
-        <li data-target="#logoCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="logoCarousel" data-slide-to="1"></li>
-      </ol>
-      <div class="carousel-inner">
-        
-        <div class="item active">
-          <img src= "assets/images/mason.jpg" class="img-responsive">
-          <div class="carousel-caption">
-            <h5>Cinnamon Raisin Toast, Yum!</h5>
-          </div>
-        </div>
-        
-        <div class="item">
-          <img src="assets/images/fish.jpg" class="img-responsive">
-          <div class="carousel-caption">
-            <h5>Fish Fingers!</h5>
-          </div>
-        </div>
-        
-        <div class="item">
-          <img src="assets/images/brocolli.jpg" class="img-responsive">
-          <div class="carousel-caption">
-            <h5>Brocolli anyone?</h5>
-          </div>
-        </div>
-        
-        <div class="item">
-          <img src="assets/images/mango.jpg" class="img-responsive">
-          <div class="carousel-caption">
-            <h5>Mango-licious!</h5>
-          </div>
-        </div>
-      
-      <a class="left carousel-control" href="#logoCarousel" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-      </a>
-      <a class="right carousel-control" href="#logoCarousel" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-      </a>
+          <h4 class="jumbotron-heading">My Journey</h4>
+          <p style="font-size:15px" class="lead text-muted">It's very scary in the beginning for my mom, as she didn't know whether she should pursue the Baby-Led Weaning method 
+          or go the old fashioned route with Purees. She read and read and read so many blogs, articles, and books, and in the end, realized that it didn't matter.  It's what's best for her and me.  
+          You see, I didn't have any teeth until almost 11 months old, so my mom was terrified of the possibility of me choking.  Although I did give her a few scares with some gagging in the beginning,
+          she learned to relax (a little bit), and to just trust that whichever method she chose to feed me that day, I will be ok.  Hopefully you will find the information here helpful. </p>
         </div>
       </div>
+      </div>
     </div>
-  </div>
-  
+  </article> 
   
 </section>
  
-<footer>
-    <div class="row">
-          <div class="col-sm-4">
-              <font color="rgba(0,0,0,0.7)">
-              <h5 class="uppercase general-sub">About</h5>
-                  <font color="#fff">
-                  <p class="inline-block">
-                        Toddler extraordinaire loving life.
-                        Lover of yummy treats and snacks.
-                  </p>
-          </div>
-      <div class="col-sm-4">
-              <font color="rgba(0,0,0,0.7)">
-              <h5 class="uppercase general-sub">Download Feeding Guide</h5>
-                  <font color="#fff"
-                  <p class="inline-block">
-                      Here's a guide of foods to feed us little people for your parents.
-                    <a href="assets/images/tf.jpg" target="_blank"><i class="fa fa-download" aria-hidden="true"></i></a>
-                  </p>
-      </div>
-      <div class="col-sm-4">
-          <font color="rgba(0,0,0,0.7)">
-          <h5 class="uppercase general-sub">My Social</h5>
-              <ul class="list-inline social-links">
-                <li><a target="blank" href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a target="blank" href="#"><i class="fa fa-instagram"></i></a></li>
-                <li><a target="blank" href="#"><i class="fa fa-youtube"></i></a></li>
-              </ul>
-      </div>
-    </div>
+
+<!-- Footer -->
+<footer class="page-footer">
+
 </footer>
+<!-- Footer -->
+
+ 
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip(); 
+});
+</script>
+
 </body>
     
 </html>
-
 
 
 
