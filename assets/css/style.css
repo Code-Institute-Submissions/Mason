@@ -57,11 +57,15 @@ header {
 
 }
 
+ul {
+  list-style-type: none;
+}
+
 .menuitem {
     height: 120px;
     text-align: center;
     padding: 0;
-
+    list-style-type: none;
 }
 
 .menuitem a {
@@ -69,7 +73,7 @@ header {
     text-decoration: none;
     color: #ffffff;
     height: 120px;
-    
+    list-style-type: none;
 }
 
 
@@ -78,6 +82,7 @@ header {
     display: block;
     color: #fafafa;
     font-size: 26px;
+    list-style-type: none;
 }
 
 .menuitem span {
@@ -89,6 +94,7 @@ header {
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 2px;
+    list-style-type: none;
 }
 
 img {
